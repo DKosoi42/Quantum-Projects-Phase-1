@@ -1,0 +1,68 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (just in case)
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# If you export notebooks to HTML/PDF locally
+*.html
+*.pdf
+
+# ----------------------------
+# Testing / coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# ----------------------------
+# IDE / editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ----------------------------
+# Data / results (choose what you want)
+# ----------------------------
+# Uncomment if you plan to store large/non-source outputs locally
+# data/
+# results/
+# figures/
+
+# ----------------------------
+# Conda
+# ----------------------------
+# Local conda state / lock files (rare but safe)
+.conda/
+conda-meta/
