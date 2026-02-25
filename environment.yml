@@ -14,4 +14,7 @@ dependencies:
   - numba
   - networkx
   - tqdm
-prefix: C:\Users\USER\Documents\Miniconda\Miniconda\envs\qinfo
+  - pip
+  - pip:
+      - qiskit
+      - qiskit-aer
