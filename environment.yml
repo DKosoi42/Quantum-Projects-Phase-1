@@ -1,0 +1,17 @@
+name: qinfo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - sympy
+  - numba
+  - networkx
+  - tqdm
+prefix: C:\Users\USER\Documents\Miniconda\Miniconda\envs\qinfo
